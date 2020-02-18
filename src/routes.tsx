@@ -4,10 +4,10 @@ import AboutPage from './components/About/aboutpage';
 import HomeView from './containers/Home/homeview';
 
 const Routes = () => (
-    <Router>
+    <Router basename="nile-safari-lodge">
         <Route path="/" exact component={ HomeView } />
         <Route path="/about" exact component={ AboutPage } />
     </Router>
-)
+);
 
 export default Routes;

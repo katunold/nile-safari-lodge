@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Ridin Dirty;
+  src: url("../../../assets/fonts/RidinDirty.ttf");
+}
+
+.banner,
+.banner .content {
+  display: flex;
+  align-items: center;
+}
+
+.banner,
+.banner .nilesafarivideo,
+.banner .nilesafarivideo .background,
+.banner .nilesafarivideo .videobg {
+  width: 100%;
+}
+
+.banner {
+  height: 100vh;
+  justify-content: center;
+}
+
+.banner .nilesafarivideo {
+  position: relative;
+  height: 100%;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.banner .nilesafarivideo .background {
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.banner .nilesafarivideo .videobg {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.banner .content {
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner .content h1 {
+  font-size: 65px;
+  font-family: Ridin Dirty;
+  /* font-weight: normal; */
+  color: #fff;
+}
+
+.banner .content hr {
+  width: 350px;
+  border: 0.5px solid #fff;
+  margin: 38px 0;
+  text-align: center;
+}
+
+.banner .content p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.banner .content .btn {
+  margin-top: 45px;
+  outline: none;
+  background: transparent;
+  font-family: Caviar Dreams Bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid #d5af6d;
+  height: 55px;
+  width: 220px;
+  transition: all 0.3s ease 0s;
+  color: #d5af6d;
+  border-radius: 7px;
+  outline: none;
+}
+
+.banner .content .btn:hover {
+  background: #d5af6d;
+  background-color: #d4b57e;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .banner .content {
+    margin-top: 35px;
+    width: 300px;
+  }
+
+  .banner .content h1 {
+    font-size: 45px;
+  }
+
+  .banner .content hr {
+    width: 170px;
+    margin: 25px 0;
+  }
+
+  .banner .content p {
+    font-size: 15px;
+  }
+
+  .banner .content .btn {
+    font-size: 15px;
+  }
+}

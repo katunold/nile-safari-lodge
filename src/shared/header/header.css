@@ -1,0 +1,83 @@
+/* CSS FOR THE MOBILE NAVBAR 
+----------------------------------------------- */
+
+.header,
+.header .nav,
+.header .nav .menu,
+.header .nav .btn {
+  display: flex;
+}
+
+.header {
+  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.header .nav {
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .logo {
+  cursor: pointer;
+  width: 120px;
+}
+
+.header .nav .menu {
+  width: 2.3rem;
+  height: 1.7rem;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 650ms ease-out;
+}
+
+.header .nav .menu .bar {
+  background: white;
+  width: 100%;
+  height: 4px;
+  border-radius: .8rem;
+}
+
+.header .nav .menu .bar.half {
+  width: 50%;
+}
+
+.header .nav .btn {
+  font-size: 20px;
+  font-weight: 500;
+  color: #edf0f1;
+  justify-content: center;
+  border: 1px solid violet;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .nav .btn:hover {
+  color: #D5AF6D;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    background-color: #D5AF6D;
+  }
+
+  .header .nav {
+    width: 85%;
+  }
+
+  .header .nav .logo {
+    width: 90px;
+  }
+
+  .header .nav .menu {
+    width: 2rem;
+    height: 1.5rem;
+  }
+}

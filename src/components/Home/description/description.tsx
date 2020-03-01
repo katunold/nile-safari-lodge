@@ -17,16 +17,14 @@ const Description = () => {
                 </div>
             </div>
 
-            {/* <div className='small__about'> */}
-                <div className='small_descipt'>
-                    <p>Experience the wonders of Uganda in style, witnessing exciting wildlife spectacles and stunning landscapes from our luxury lodge perched on the southern bank of the River Nile.<br />
+            <div className='small_descipt'>
+                <p>Experience the wonders of Uganda in style, witnessing exciting wildlife spectacles and stunning landscapes from our luxury lodge perched on the southern bank of the River Nile.<br />
                     In the remote beautiful, savannah the Lodge is a luxurious escape and the ultimate private safari experience.
                     <br />
                     Nile Safari Lodge is a luxurious lodge that provides an unforgettable wildlife experience within the scenic beauty of the Murchison Falls National Park.</p>
 
-                    <img className='logo' src={logo} alt='logo' />
-                </div>
-            {/* </div> */}
+                <img className='logo' src={logo} alt='logo' />
+            </div>
 
             <div className='know__us'>
                 <div className='content'>

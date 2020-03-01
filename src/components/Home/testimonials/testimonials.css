@@ -1,0 +1,81 @@
+.testimonial,
+.testimonial .testimonies,
+.testimonial .testimonies .inside,
+.profile-section {
+  display: flex;
+}
+
+.testimonial {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.testimonial .testimonies {
+  width: 72%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial .testimonies hr {
+  width: 100px;
+  border: 1px solid #d5af6d;
+  margin: 35px 0;
+}
+
+.testimonial .testimonies .inside {
+  justify-content: space-between;
+}
+
+.testimonial .testimonies .inside .first,
+.testimonial .testimonies .inside .second,
+.testimonial .testimonies .inside .third {
+  padding: 50px 40px;
+  width: 31%;
+  text-align: start;
+}
+
+.testimonial .testimonies .inside .first .profile,
+.testimonial .testimonies .inside .second .profile,
+.testimonial .testimonies .inside .third .profile {
+  border-radius: 200px;
+  width: 100px;
+}
+
+.profile-section {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-section .name {
+  font-family: Caviar Dreams Bold;
+  font-weight: bolder;
+}
+
+.custom-elevation-z2 {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 7px !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .testimonial .testimonies {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .testimonial .testimonies .inside {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .testimonial .testimonies .inside .first,
+  .testimonial .testimonies .inside .second,
+  .testimonial .testimonies .inside .third {
+    padding: 30px 20px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: start;
+  }
+}

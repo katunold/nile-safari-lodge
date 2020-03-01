@@ -54,21 +54,19 @@
 .banner .content h1 {
   font-size: 65px;
   font-family: Ridin Dirty;
-  /* font-weight: normal; */
   color: #fff;
 }
 
 .banner .content hr {
   width: 350px;
-  border: 0.5px solid #fff;
+  border: 1px solid #fff;
   margin: 38px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .banner .content p {
   color: #fff;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .banner .content .btn {

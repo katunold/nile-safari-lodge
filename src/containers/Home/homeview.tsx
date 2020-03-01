@@ -4,6 +4,7 @@ import Header from '../../shared/header/Header';
 import Description from '../../components/Home/description/description';
 import Footer from '../../shared/footer/Footer';
 import Cards from '../../components/Home/cards/cards';
+import Testimony from '../../components/Home/testimonials/testimonials';
 
 const HomeView = () => (
   <div>
@@ -11,6 +12,7 @@ const HomeView = () => (
     <Banner />
     <Description />
     <Cards />
+    <Testimony />
     <Footer />
   </div>
 );

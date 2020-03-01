@@ -40,11 +40,6 @@ const Describe = styled.div`
         color: #d5af6d;
     }
 
-    .join__us .content .text p,
-    .know__us .content .text p  {
-        font-weight: bold;
-    }
-
     .know__us .content .text h2,
     .know__us .content .text p {
         color: #fff;
@@ -79,7 +74,7 @@ const Describe = styled.div`
         width: 100%;
         text-align: center;
         padding: 70px 0;
-        font-weight: bold;
+        
         background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${skyview})
     }
 

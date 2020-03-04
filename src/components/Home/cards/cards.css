@@ -77,9 +77,9 @@ li:hover .compliment h1 {
 } */
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .cards-showcase li {
-    width: 50%;
-  }
+  /* .cards-showcase li {
+    width: 49%;
+  } */
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

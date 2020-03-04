@@ -1,6 +1,8 @@
 import React from 'react';
 import './testimonials.css'
 import profile from '../../../assets/images/profile.png'
+import nigga from '../../../assets/images/nigga.png'
+import girl from '../../../assets/images/girl.png'
 import commas from '../../../assets/icons/invertcommas.svg'
 
 
@@ -12,30 +14,30 @@ const Testimony = () => {
                 <hr />
                 <div className='inside'>
                     <div className='first custom-elevation-z2'>
-                        <p>This is the best tours and travela company in Uganda because it fulfills its services as a tourism company is recommended to do...</p>
+                        <p>This is the best place for peace and quiet... great bands that offer peace and quiet...</p>
                         <div className='profile-section'>
                             <img src={commas} alt='profile' />
-                            <p className='name'>David Luzuki</p>
-                            <img src={profile} alt='profile' className='profile' />
+                            <p className='name'>David L</p>
+                            <img src={nigga} alt='profile' className='profile' />
                         </div>
 
                     </div>
 
                     <div className='second custom-elevation-z2'>
-                        <p>This is the best tours and travela company in Uganda because it fulfills its services as a tourism company is recommended to do...I have really enjoyed my road trip to Sipi Falls kapochrwa...big up Damba tours and travels...</p>
+                        <p>Wehave enjoyed our stay here very much and everything was wonderful and magical, never disappointed at all, great senary, great service, great place and very nice food. We will come back next year...</p>
                         <div className='profile-section'>
                             <img src={commas} alt='profile' />
-                            <p className='name'>Marie Sashah</p>
+                            <p className='name'>Catherine M</p>
                             <img src={profile} alt='profile' className='profile' />
                         </div>
                     </div>
 
                     <div className='third custom-elevation-z2'>
-                        <p>I have really enjoyed my road trip to Sipi Falls kapochrwa...big up Damba tours and travels...</p>
+                        <p>I have really enjoyed my stay here and what i can say is that this is the best value for the money in Africa, thank you Nile Safari...</p>
                         <div className='profile-section'>
                             <img src={commas} alt='profile' />
-                            <p className='name'>Danny Selahh</p>
-                            <img src={profile} alt='profile' className='profile' />
+                            <p className='name'>Janice K</p>
+                            <img src={girl} alt='profile' className='profile' />
                         </div>
                     </div>
                 </div>

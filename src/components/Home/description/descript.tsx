@@ -74,7 +74,10 @@ const Describe = styled.div`
         width: 100%;
         text-align: center;
         padding: 70px 0;
-        
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
         background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${skyview})
     }
 

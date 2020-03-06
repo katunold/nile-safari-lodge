@@ -62,7 +62,7 @@
   border-radius: 7px !important;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 855px) {
   .testimonial .testimonies {
     width: 80%;
     flex-direction: column;

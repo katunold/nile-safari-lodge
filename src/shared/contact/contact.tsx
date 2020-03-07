@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-import location from '../../../assets/icons/location.svg'
-import phone from '../../../assets/icons/phone.svg'
-import email from '../../../assets/icons/email.svg'
-import skyview from '../../../assets/images/skyview.jpg'
+import location from '../../assets/icons/location.svg'
+import phone from '../../assets/icons/phone.svg'
+import email from '../../assets/icons/email.svg'
+import skyview from '../../assets/images/skyview.jpg'
 
 
 const Contact = styled.div`
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${skyview});
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${skyview});
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    padding: 100px 0;
+    padding: 57px 0;
     justify-content: center;
 
     @media (min-width: 320px) and (max-width: 767px) {

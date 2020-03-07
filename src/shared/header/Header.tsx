@@ -47,7 +47,7 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <div className='nav'>
-                    <img className="logo" src={logo} alt="logo" />
+                    <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
 
                     <div className='menu' onClick={this.openNavBar}>
                         <div className='bar half start'></div>

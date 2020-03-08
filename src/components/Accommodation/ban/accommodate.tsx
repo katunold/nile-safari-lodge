@@ -19,6 +19,9 @@ const Accommodat = () => {
             <div className='the-bandas'>
                 <h2>The Famous Bandas</h2>
                 <hr />
+                <p className='the-paragraph'>Our spacious rooms have incredible views, with breathtaking sceneries and an ideal spot to view wildlife on your private deck. We have eight bandas; a honeymoon suite with a plunge pool and star bed. A family banda consisting of two master rooms, a living room and a private swimming pool.
+                <br />
+                Imagine yourself elevated on your private deck on the river bank, one can view the Murchison Falls National Park and watch animals in their natural habitat.</p>
                 <div className='the-container'>
                     <div className='the-card first'>
                         <div className='the-imgbox'>

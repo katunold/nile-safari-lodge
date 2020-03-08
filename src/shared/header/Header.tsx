@@ -47,7 +47,7 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <div className='nav'>
-                    <img className="logo" src={logo} alt="logo" />
+                    <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
 
                     <div className='menu' onClick={this.openNavBar}>
                         <div className='bar half start'></div>
@@ -63,7 +63,7 @@ class Header extends React.Component {
                         <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
                         <Link to="/">Home</Link>
                         <Link to="/notfound">Activities</Link>
-                        <Link to="/notfound">Accommodation</Link>
+                        <Link to="/accommodate">Accommodation</Link>
                         <Link to="/notfound">Facilities</Link>
                         <Link to="/notfound">Gallery</Link>
                         <Link to="/about">About</Link>

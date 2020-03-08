@@ -11,8 +11,10 @@
 }
 
 .footer {
-  background-color: #d5af6d;
+  /* background-color: #d5af6d;  */
+  /* background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 48, 48)); */
   align-items: center;
+  background-color: rgb(15, 15, 15);
   flex-direction: column;
 }
 
@@ -44,6 +46,7 @@
 .footer .content .third h3 {
   font-family: Caviar Dreams Bold;
   margin-bottom: 27px;
+  color: #d5af6d;
 }
 
 .footer .content .first p,
@@ -64,7 +67,7 @@
 }
 
 .footer .content .first .icons .footer__icon {
-  width: 33px;
+  width: 30px;
 }
 
 .footer .content .third .icons .footer__image {
@@ -133,7 +136,8 @@ form {
 }
 
 .footer .copyright {
-  background: #b58056;
+  /* background: #b58056; */
+  background-color: #d5af6d;
   padding: 17px 0;
   width: 100%;
 }

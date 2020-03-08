@@ -13,6 +13,7 @@
   position: fixed;
   width: 100%;
   z-index: 3;
+  /* background-color: #D5AF6D; */
   box-sizing: border-box;
   justify-content: center;
 }

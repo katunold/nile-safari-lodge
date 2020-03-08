@@ -15,11 +15,12 @@ const Band = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 250px;
+        height: 320px;
     }
 
     .the-head h1 {
         font-size: 60px;
+        margin-top: 100px;
         font-family: Ridin Dirty;
         color: #fff;
     }

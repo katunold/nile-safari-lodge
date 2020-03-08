@@ -1,0 +1,229 @@
+.heada {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+.heada h1 {
+  font-size: 60px;
+  font-family: Ridin Dirty;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.the-bandas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.the-bandas hr {
+  width: 100px;
+  border: 1px solid #d5af6d;
+  margin: 35px 0;
+}
+
+.the-container {
+  max-width: 1450px;
+  width: 75%;
+  /* margin: 0 !important; */
+  /* border: 1px solid yellow; */
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.the-container .the-card {
+  /* position: relative; */
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+
+.the-container .first {
+  margin-top: 50px;
+}
+
+.the-container .the-card:nth-child(odd) {
+  flex-direction: row;
+  text-align: left;
+}
+
+.the-container .the-card:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.the-container .the-card .the-imgbox {
+  position: relative;
+  left: 25px;
+  z-index: 1;
+  width: 600px;
+  height: 400px;
+}
+
+.the-container .the-card:nth-child(even) .the-imgbox {
+  left: -25px;
+}
+
+.the-container .the-card .the-imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.the-container .the-card .the-contentbox {
+  position: relative;
+  right: 25px;
+  width: 600px;
+  /* text-align: left; */
+  height: 400px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px 20px 100px;
+}
+
+.the-container .the-card:nth-child(even) .the-contentbox {
+  right: -25px;
+  padding: 20px 100px 20px 60px;
+}
+
+.the-container .the-card .the-contentbox:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  background: #000;
+  z-index: -1;
+}
+
+.the-container .the-card .the-contentbox h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.the-container .the-card .the-contentbox p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.the-container .the-card .the-contentbox .btn {
+  margin-top: 45px;
+  outline: none;
+  background: transparent;
+  font-family: Caviar Dreams Bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid #d5af6d;
+  height: 55px;
+  width: 220px;
+  transition: all 0.3s ease 0s;
+  color: #d5af6d;
+  border-radius: 7px;
+  outline: none;
+}
+
+.the-container .the-card .the-contentbox .btn:hover {
+  background: #d5af6d;
+  background-color: #d4b57e;
+  color: #000;
+}
+
+@media (max-width: 1450px) {
+  .the-container .the-card {
+    flex-direction: column;
+    max-width: 350px;
+    margin: 25px 25px;
+  }
+
+  .the-container .the-card .the-imgbox {
+    width: 100%;
+    height: 250px;
+    left: 0;
+  }
+
+  .the-container .the-card .the-contentbox {
+    width: 100%;
+    height: auto;
+    right: 0;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .the-container .the-card .the-contentbox:before {
+    top: 0;
+    bottom: 0;
+  }
+
+  .the-container .the-card:nth-child(even) .the-imgbox {
+    left: 0;
+  }
+
+  .the-container .the-card:nth-child(even) .the-contentbox {
+    right: 0;
+    padding: 30px;
+  }
+}
+
+/* .the-bandas .the-stuff {
+  display: flex;
+  width: 75%;
+  border: 1px solid yellow;
+} */
+
+/* .the-bandas .the-stuff .first-banda {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.the-bandas .the-stuff .first-banda .small-bit {
+  width: 500px;
+}
+
+.the-bandas .the-stuff .first-banda img {
+  width: 400px;
+}
+
+.the-bandas .the-stuff .first-banda .btn {
+  margin-top: 45px;
+  outline: none;
+  background: transparent;
+  font-family: Caviar Dreams Bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid #d5af6d;
+  height: 55px;
+  width: 220px;
+  transition: all 0.3s ease 0s;
+  color: #d5af6d;
+  border-radius: 7px;
+  outline: none;
+}
+
+.the-bandas .the-stuff .first-banda .btn:hover {
+  background: #d5af6d;
+  background-color: #d4b57e;
+  color: #ffffff;
+} */

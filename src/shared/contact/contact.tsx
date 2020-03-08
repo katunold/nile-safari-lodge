@@ -13,7 +13,7 @@ const Contact = styled.div`
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    padding: 57px 0;
+    padding: 50px 0;
     justify-content: center;
 
     @media (min-width: 320px) and (max-width: 767px) {

@@ -5,6 +5,7 @@ import nilesafari7 from '../../../assets/images/nilesafari7.jpg'
 import nilesafari6 from '../../../assets/images/nilesafari6.jpg'
 import DJI_0131 from '../../../assets/images/DJI_0131.jpg'
 import './acco.css';
+import { useHistory } from 'react-router-dom';
 
 
 const Accommodator = styled.div`
@@ -14,6 +15,11 @@ const Accommodator = styled.div`
 `
 
 const Accommodat = () => {
+    const history = useHistory();
+    const goToDetails = () => {
+        window.scrollTo(0,0)
+        history.push('/details')
+    }
     return (
         <Accommodator className='the-heading'>
             <div className='heada'>
@@ -34,7 +40,7 @@ const Accommodat = () => {
                             <div className='small-bit'>
                                 <h3>Luxurious Banda</h3>
                                 <p>Our six bandas provide a high level of luxury and service inclusive of a traditional freestanding bathtub; perfect for relaxing and enjoying the evening views.</p>
-                                <button className='btn'>View Details</button>
+                                <button className='btn' onClick={goToDetails}>View Details</button>
                             </div>
                         </div>
                     </div>

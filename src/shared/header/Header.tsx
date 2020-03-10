@@ -65,7 +65,7 @@ class Header extends React.Component {
                         <Link to="/notfound">Activities</Link>
                         <Link to="/accommodate">Accommodation</Link>
                         <Link to="/notfound">Facilities</Link>
-                        <Link to="/notfound">Gallery</Link>
+                        <Link to="/gallery">Gallery</Link>
                         <Link to="/about">About</Link>
                     </div>
                 </MobileNav>

@@ -45,6 +45,11 @@ p {
   font-weight: bold;
 }
 
+.custom-elevation-z2 {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 7px !important;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   p {
     font-size: 15px;

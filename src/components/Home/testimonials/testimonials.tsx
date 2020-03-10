@@ -24,7 +24,7 @@ const Testimony = () => {
                     </div>
 
                     <div className='second custom-elevation-z2'>
-                        <p>Wehave enjoyed our stay here very much and everything was wonderful and magical, never disappointed at all, great senary, great service, great place and very nice food. We will come back next year...</p>
+                        <p>We have enjoyed our stay here very much and everything was wonderful and magical, never disappointed at all, great senary, great service, great place and very nice food. We will come back next year...</p>
                         <div className='profile-section'>
                             <img src={commas} alt='profile' />
                             <p className='name'>Catherine M</p>

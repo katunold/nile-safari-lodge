@@ -31,9 +31,9 @@ const Footer = () => {
                     <FooterNav>
                         <Link to="/">Home</Link>
                         <Link to="/notfound">Activities</Link>
-                        <Link to="/notfound">Accommodation</Link>
+                        <Link to="/accommodation">Accommodation</Link>
                         <Link to="/notfound">Facilities</Link>
-                        <Link to="/notfound">Gallery</Link>
+                        <Link to="/gallery">Gallery</Link>
                         <Link to="/about">About</Link>
                         <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
                     </FooterNav>

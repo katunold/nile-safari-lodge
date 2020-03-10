@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import skyview from '../../../assets/images/skyview.jpg'
+import nilesafari7 from '../../../assets/images/nilesafari7.jpg'
+import nilesafari6 from '../../../assets/images/nilesafari6.jpg'
+import DJI_0131 from '../../../assets/images/DJI_0131.jpg'
 import './acco.css';
 
 
@@ -25,7 +28,7 @@ const Accommodat = () => {
                 <div className='the-container'>
                     <div className='the-card first'>
                         <div className='the-imgbox'>
-                            <img src={skyview} alt='first-banda' />
+                            <img src={nilesafari7} alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>
@@ -38,7 +41,7 @@ const Accommodat = () => {
 
                     <div className='the-card'>
                         <div className='the-imgbox'>
-                            <img src={skyview} alt='first-banda' />
+                            <img src={DJI_0131} alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>
@@ -51,7 +54,7 @@ const Accommodat = () => {
 
                     <div className='the-card'>
                         <div className='the-imgbox'>
-                            <img src={skyview} alt='first-banda' />
+                            <img src={nilesafari6} alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>

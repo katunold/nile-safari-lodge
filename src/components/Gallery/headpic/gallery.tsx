@@ -1,42 +1,34 @@
 import React from 'react';
-import './gallery.css'
-import styled from 'styled-components';
+import Band from '../../../shared/band/band';
+import './gallery.css';
 
-import skyview from '../../../assets/images/skyview.jpg'
-import nilesafari1 from '../../../assets/images/nilesafari1.jpg'
-import DSC_0018 from '../../../assets/images/DSC_0018.jpg'
-import nilesafari3 from '../../../assets/images/nilesafari3.jpg'
-import nilesafari4 from '../../../assets/images/nilesafari4.jpg'
-import nilesafari5 from '../../../assets/images/nilesafari5.jpg'
-import nilesafari6 from '../../../assets/images/nilesafari6.jpg'
-import nilesafari7 from '../../../assets/images/nilesafari7.jpg'
-import nilesafari9 from '../../../assets/images/nilesafari9.jpg'
-import nilesafari10 from '../../../assets/images/nilesafari10.jpg'
-import nilesafari11 from '../../../assets/images/nilesafari11.jpg'
-import swimming from '../../../assets/images/swimming.jpg'
-import lodge from '../../../assets/images/lodge.jpg'
-import DJI_0183 from '../../../assets/images/DJI_0183.jpg'
-import room from '../../../assets/images/room.jpg'
-import bathroomview from '../../../assets/images/bathroomview.jpeg'
-import bathroompic from '../../../assets/images/bathroompic.jpeg'
-import DSC_0028 from '../../../assets/images/DSC_0028.jpg'
-import DSC_3878 from '../../../assets/images/DSC_3878.jpg'
-import DJI_0131 from '../../../assets/images/DJI_0131.jpg'
-import huts from '../../../assets/images/huts.jpg'
+import nilesafari1 from '../../../assets/images/nilesafari1.jpg';
+import DSC_0018 from '../../../assets/images/DSC_0018.jpg';
+import nilesafari3 from '../../../assets/images/nilesafari3.jpg';
+import nilesafari4 from '../../../assets/images/nilesafari4.jpg';
+import nilesafari5 from '../../../assets/images/nilesafari5.jpg';
+import nilesafari6 from '../../../assets/images/nilesafari6.jpg';
+import nilesafari7 from '../../../assets/images/nilesafari7.jpg';
+import nilesafari9 from '../../../assets/images/nilesafari9.jpg';
+import nilesafari10 from '../../../assets/images/nilesafari10.jpg';
+import nilesafari11 from '../../../assets/images/nilesafari11.jpg';
+import swimming from '../../../assets/images/swimming.jpg';
+import lodge from '../../../assets/images/lodge.jpg';
+import DJI_0183 from '../../../assets/images/DJI_0183.jpg';
+import room from '../../../assets/images/room.jpg';
+import bathroomview from '../../../assets/images/bathroomview.jpeg';
+import bathroompic from '../../../assets/images/bathroompic.jpeg';
+import DSC_0028 from '../../../assets/images/DSC_0028.jpg';
+import DSC_3878 from '../../../assets/images/DSC_3878.jpg';
+import DJI_0131 from '../../../assets/images/DJI_0131.jpg';
+import huts from '../../../assets/images/huts.jpg';
 
-
-const Sketches = styled.div`
-    .heding {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url(${skyview});
-    }
-`
 
 const Gallery = () => {
+    
     return (
-        <Sketches className='picsketch'>
-            <div className='heding'>
-                <h1>Gallery</h1>
-            </div>
+        <div>
+            <Band title="Gallery" />
             
             <div className='the-pics'>
                 <h2>Our Pictorial Tour</h2>
@@ -107,7 +99,7 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-        </Sketches>
+        </div>
     )
 }
 

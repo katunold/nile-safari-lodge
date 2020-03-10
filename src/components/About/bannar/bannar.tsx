@@ -1,29 +1,10 @@
 import React from 'react';
+import Band from '../../../shared/band/band';
 import styled from 'styled-components'
-import skyview from '../../../assets/images/skyview.jpg'
 import video from '../../../assets/videos/banner.mp4'
 
 
-const Band = styled.div`
-
-    .the-head {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url(${skyview});
-        background-position:center;
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-attachment:fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 320px;
-    }
-
-    .the-head h1 {
-        font-size: 60px;
-        margin-top: 100px;
-        font-family: Ridin Dirty;
-        color: #fff;
-    }
+const Brand = styled.div`
 
     .the-content {
         display: flex;
@@ -43,7 +24,6 @@ const Band = styled.div`
         display: flex;
         width: 75%;
         justify-content: space-between;
-        // border: 1px solid red;
     }
 
     .the-video,
@@ -69,10 +49,8 @@ const Band = styled.div`
 const Bannar = () => {
 
     return (
-        <Band>
-            <div className='the-head'>
-                <h1>About</h1>
-            </div>
+        <Brand>
+            <Band title="About" />
             <div className='the-content'>
                 <h2>About the Lodge</h2>
                 <hr />
@@ -92,7 +70,7 @@ const Bannar = () => {
                     ></video>
                 </div>
             </div>
-        </Band>
+        </Brand>
     )
 }
 

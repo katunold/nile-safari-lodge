@@ -1,18 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import skyview from '../../../assets/images/skyview.jpg'
-import nilesafari7 from '../../../assets/images/nilesafari7.jpg'
-import nilesafari6 from '../../../assets/images/nilesafari6.jpg'
-import DJI_0131 from '../../../assets/images/DJI_0131.jpg'
+import Band from '../../../shared/band/band';
+import nilesafari7 from '../../../assets/images/nilesafari7.jpg';
+import nilesafari6 from '../../../assets/images/nilesafari6.jpg';
+import DJI_0131 from '../../../assets/images/DJI_0131.jpg';
 import './acco.css';
 import { useHistory } from 'react-router-dom';
 
-
-const Accommodator = styled.div`
-    .heada {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url(${skyview});
-    }
-`
 
 const Accommodat = () => {
     const history = useHistory();
@@ -20,11 +13,10 @@ const Accommodat = () => {
         window.scrollTo(0,0)
         history.push('/details')
     }
+    
     return (
-        <Accommodator className='the-heading'>
-            <div className='heada'>
-                <h1>Accommodation</h1>
-            </div>
+        <div>
+            <Band title="Accommodation" />
             <div className='the-bandas'>
                 <h2>The Famous Bandas</h2>
                 <hr />
@@ -53,7 +45,7 @@ const Accommodat = () => {
                             <div className='small-bit'>
                                 <h3>Exclusive  Banda</h3>
                                 <p>Exclusive honeymoon banda named MWEZI (Swahili word for Moon) is the ultimate romantic getaway, accommodating couples in our most elite banda suite consisting of its private plunge pool, king size star bed with a complementary view of the flowing River Nile.</p>
-                                <button className='btn'>View Details</button>
+                                <button className='btn' onClick={goToDetails}>View Details</button>
                             </div>
                         </div>
                     </div>
@@ -66,13 +58,13 @@ const Accommodat = () => {
                             <div className='small-bit'>
                                 <h3>Family Banda</h3>
                                 <p>Exclusive family banda named DUNIA (Swahili word for Earth) is the ideal option for larger groups. It accommodates four to eight guests.</p>
-                                <button className='btn'>View Details</button>
+                                <button className='btn' onClick={goToDetails}>View Details</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </Accommodator>
+        </div>
     )
 }
 

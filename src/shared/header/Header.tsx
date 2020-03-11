@@ -62,9 +62,9 @@ class Header extends React.Component {
                     <div className="overlay__links">
                         <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
                         <Link to="/">Home</Link>
-                        <Link to="/notfound">Activities</Link>
+                        <Link to="/activities">Activities</Link>
                         <Link to="/accommodate">Accommodation</Link>
-                        <Link to="/notfound">Facilities</Link>
+                        <Link to="/facilities">Facilities</Link>
                         <Link to="/gallery">Gallery</Link>
                         <Link to="/about">About</Link>
                     </div>

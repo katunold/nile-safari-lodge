@@ -29,10 +29,10 @@ const Footer = () => {
                 <div className='second'>
                     <h3>Quick Links</h3>
                     <FooterNav>
-                        <Link to="/">Home</Link>
-                        <Link to="/notfound">Activities</Link>
-                        <Link to="/accommodation">Accommodation</Link>
-                        <Link to="/notfound">Facilities</Link>
+                        <Link to="/" onClick={()=>window.scrollTo(0, 0)}>Home</Link>
+                        <Link to="/activities">Activities</Link>
+                        <Link to="/accommodate">Accommodation</Link>
+                        <Link to="/facilities">Facilities</Link>
                         <Link to="/gallery">Gallery</Link>
                         <Link to="/about">About</Link>
                         <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>

@@ -11,8 +11,6 @@
 }
 
 .footer {
-  /* background-color: #d5af6d;  */
-  /* background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 48, 48)); */
   align-items: center;
   background-color: rgb(15, 15, 15);
   flex-direction: column;

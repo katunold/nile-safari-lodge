@@ -1,4 +1,5 @@
 import React from 'react';
+import JoinUs from '../../../shared/join/join';
 import Describe from './descript';
 import logo from '../../../assets/nileSafariOrig.png';
 
@@ -6,16 +7,7 @@ import logo from '../../../assets/nileSafariOrig.png';
 const Description = () => {
     return (
         <Describe>
-            <div className='join__us'>
-                <div className='content'>
-                    <div className='text'>
-                        <h2>Start now, Book your reservation</h2>
-                        <p>Be the first to know about our offers, keep up to date with what's happening and book yourself<br />a reservation at Nile Safari Lodge. </p>
-                    </div>
-
-                    <button className='btn'>Book Now</button>
-                </div>
-            </div>
+            <JoinUs />
 
             <div className='small_descipt'>
                 <p>Experience the wonders of Uganda in style, witnessing exciting wildlife spectacles and stunning landscapes from our luxury lodge perched on the southern bank of the River Nile.<br />

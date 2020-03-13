@@ -35,16 +35,28 @@ const Brand = styled.div`
         padding: 37px;
     }
 
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 914px) {
         .the-head {
           margin-top: 100px;
         }
+
         .the-head h1 {
           font-size: 45px;
         }
+
+        .the-content .the-inside {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 0;
+        }
+
+        .the-video,
+        .the-text {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 `
-
 
 const Bannar = () => {
 

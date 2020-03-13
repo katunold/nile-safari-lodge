@@ -1,10 +1,8 @@
 import React from 'react';
+import JoinUs from '../../shared/join/join';
+
 import styled from 'styled-components';
-import nilesafari1 from '../../assets/images/nilesafari1.jpg';
-import nilesafari3 from '../../assets/images/nilesafari3.jpg';
-import nilesafari11 from '../../assets/images/nilesafari11.jpg';
-import DJI_0183 from '../../assets/images/DJI_0183.jpg';
-import nilesafari5 from '../../assets/images/nilesafari5.jpg';
+import nilesafari7 from '../../assets/images/nilesafari7.jpg';
 
 import './details.css'
 
@@ -17,7 +15,7 @@ const Details = styled.div`
   
   .contain {
     display: flex;
-    width: 57%;
+    width: 70%;
     justify-content: space-between;
     padding: 80px 0;
   }
@@ -26,15 +24,12 @@ const Details = styled.div`
     border-left: 1px solid #D5AF6D;
     width: 45%;
     padding: 45px;
+    margin-top: 70px;
   }
 
   .contain .overview div {
     display: flex;
     flex-direction: column;
-  }
-
-  .description div, .overview div {
-    color: #808080;
   }
 
   .description {
@@ -57,41 +52,60 @@ const Details = styled.div`
     border: 1px solid #d5af6d;
     margin: 30px 0;
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    
+    .contain {
+      width: 85%;
+      flex-direction: column;
+    }
+  
+    .contain .overview {
+      border-left: 0;
+      width: 100%;
+      padding: 45px 20px;
+    }
+  
+    .contain .overview div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .description {
+      width: 100%;
+    }
+  }
 `
 
 
 export default () => (
-  <Details>
 
+  <Details>
     <div className='detail-container'>
       <div className='detail-box a'>
-        <img src={nilesafari1} alt='sketch' />
+        <img src={nilesafari7} alt='sketch' />
       </div>
       <div className='detail-box b'>
-        <img src={DJI_0183} alt='sketch' />
+        <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Luxurious-Banda-Nile-Safari-Lodge-.jpg-Bathtub.jpg' alt='sketch' />
       </div>
       <div className='detail-box c'>
-        <img src={nilesafari3} alt='sketch' />
+        <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Tolet.jpg' alt='sketch' />
       </div>
       <div className='detail-box d'>
-        <img src={nilesafari11} alt='sketch' />
+        <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Luxurious-Banda-Nile-Safari-Lodge-.jpg-Showers.jpg' alt='sketch' />
       </div>
       <div className='detail-box e'>
-        <img src={nilesafari5} alt='sketch' />
+        <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Luxurious-Banda-Nile-Safari-Lodge-.jpg-Deck-with-views.jpg' alt='sketch' />
       </div>
     </div>
 
     <div className='contain'>
       <div className='description'>
-        <h2>Exclusive Banda</h2>
+        <h2>Luxurious Banda</h2>
         <hr />
         <div>
           <p><span>Room Description</span>
-          Exclusive honeymoon banda named MWEZI (Swahili word for Moon) is the ultimate romantic getaway, accommodating couples in our most elite banda suite. its exclusivity is in its Private plunge pool, king size star bed with a complementary view of the flowing River Nile.
-          <br /><br />
-          Mwezi is the ideal setting to celebrate a special occasion with a glass of champagne while appreciating the endless beauty of nature.
-          <span>Romance Factor</span>
-          Perched on the riverbank, overlooking the majestic River Nile surrounded by the wildlife you have a feeling of remoteness and isolation that many other lodges in the region cannot offer. The view from your plunge pool is simply magnificent, it’s your own private paradise in the wilderness.</p>
+          Our six bandas provide a high level of luxury and service inclusive of a traditional freestanding bathtub; perfect for relaxing and enjoying the evening views. A monsoon high-pressure indoor shower, vital for the early morning safari game drives and an outdoor shower designed to embrace the beauty of the nature surrounding your banda.</p>
         </div>
 
       </div>
@@ -123,6 +137,8 @@ export default () => (
         </div>
       </div>
     </div>
+
+    <JoinUs />
 
   </Details >
 )

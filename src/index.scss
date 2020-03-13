@@ -51,6 +51,12 @@ span {
   border-radius: 7px !important;
 }
 
+.show {
+  position: fixed !important;
+  transition: all .5s;
+  top: 0;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   p {
     font-size: 15px;

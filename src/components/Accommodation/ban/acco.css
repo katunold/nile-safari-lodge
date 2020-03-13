@@ -20,9 +20,6 @@
 .the-container {
   max-width: 1450px;
   width: 75%;
-  /* margin: 0 !important; */
-  /* border: 1px solid yellow; */
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,8 +27,6 @@
 }
 
 .the-container .the-card {
-  /* position: relative; */
-  /* border: 1px solid pink; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,6 +148,13 @@
 .the-container .the-card:nth-child(even) .the-contentbox .btn:hover {
   background-color: #fff;
   color: #d4b57e;
+}
+
+@media (min-width: 320px) and (max-width: 914px) {
+  .the-bandas .the-paragraph {
+    width: 100%;
+    padding: 0 25px;
+}
 }
 
 @media (max-width: 1450px) {

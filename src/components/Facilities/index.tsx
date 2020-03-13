@@ -1,8 +1,10 @@
 import React from 'react';
 import Band from '../../shared/band/band';
-import './facility.css';
 
 import crest from '../../assets/images/nilesafari4.jpg';
+import swimming from '../../assets/images/swimming.jpg';
+import nilesafari3 from '../../assets/images/nilesafari3.jpg';
+import drinks from '../../assets/images/drinks.jpg';
 import '../../components/Activities/activities.css';
 
 
@@ -32,10 +34,10 @@ Our innovative, professional and seasoned chefs design new menus every day, tail
 <br /><br />
 The ultimate setting to enjoy any refreshments is within our built-in sun lounger that is partially shaded by a cool thatched roof, which is particularly comfortable in the hot season & with close proximity to the pool bar.</p>
                         </div>
-                        <img src={crest} alt='site-sketch' />
+                        <img src={swimming} alt='site-sketch' />
                     </div>
                     <div className='sect'>
-                        <img src={crest} alt='site-sketch' />
+                        <img src={nilesafari3} alt='site-sketch' />
                         <div className='about-content'>
                             <h3>Mtoni Spa</h3>
                             <p>Take time to spoil yourself, by relaxing and unwinding with our immense 180° panoramic views. For relaxation, the Mtoni Spa offers a range of pampering, beauty and wellness treatments on a naturally raised riverbank. With the song of the wilderness and with treatments that are tailored to your desires, we want you to leave the Mtoni Spa feeling refreshed and rejuvenated.</p>
@@ -48,7 +50,7 @@ The ultimate setting to enjoy any refreshments is within our built-in sun lounge
 <br /><br />
 The lounge is a quiet zone to enjoy an aperitif or drink of your choice. We provide a wide selection of games from the traditional to the classics and with access to our WIFI, you may take a break from the fun to catch up in a serene spot.</p>
                         </div>
-                        <img src={crest} alt='site-sketch' />
+                        <img src={drinks} alt='site-sketch' />
                     </div>
                 </div>
             </div>

@@ -25,8 +25,6 @@ const Bread = styled.div`
 
     @media (min-width: 320px) and (max-width: 767px) {
         
-        margin-top: 100px;
-        
         h1 {
           font-size: 45px;
         }

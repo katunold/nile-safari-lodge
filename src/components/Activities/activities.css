@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  height: auto;
 }
 
 .the-acts .containa .sect img {
@@ -43,6 +44,37 @@
 }
 
 .containa .about-content h3 {
+  color: #d5af6d;
+  margin-bottom: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 914px) {
+  .the-acts .containa .sect {
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 17px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 7px !important;
+  }
+
+  .the-acts .containa .sect img {
+    width: 100%;
+  }
+
+  .containa .about-content {
+    width: 100%;
+  }
+
+  .containa .about-content h3 {
     color: #d5af6d;
+    margin-top: 17px;
+  }
+
+  .containa .about-content p {
     margin-bottom: 17px;
+  }
+
+  .the-acts .paragraph {
+    width: 100%;
+  }
 }

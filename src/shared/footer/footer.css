@@ -66,6 +66,7 @@
 
 .footer .content .first .icons .footer__icon {
   width: 30px;
+  height: 30px;
 }
 
 .footer .content .third .icons .footer__image {
@@ -95,7 +96,8 @@ form {
   padding: 10px;
   background: #fff;
   color: white;
-  width: 30px;
+  width: 43px;
+  height: 43px;
   text-align: center;
 }
 

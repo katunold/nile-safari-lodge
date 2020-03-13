@@ -8,15 +8,28 @@ import { useHistory } from 'react-router-dom';
 
 
 const Accommodat = () => {
+
     const history = useHistory();
+
     const goToDetails = () => {
-        window.scrollTo(0,0)
+        window.scrollTo(0, 0)
         history.push('/details')
     }
-    
+
+    const goToDetails1 = () => {
+        window.scrollTo(0, 0)
+        history.push('/details1')
+    }
+
+    const goToDetails2 = () => {
+        window.scrollTo(0, 0)
+        history.push('/details2')
+    }
+
     return (
         <div>
             <Band title="Accommodation" />
+
             <div className='the-bandas'>
                 <h2>The Famous Bandas</h2>
                 <hr />
@@ -45,7 +58,7 @@ const Accommodat = () => {
                             <div className='small-bit'>
                                 <h3>Exclusive  Banda</h3>
                                 <p>Exclusive honeymoon banda named MWEZI (Swahili word for Moon) is the ultimate romantic getaway, accommodating couples in our most elite banda suite consisting of its private plunge pool, king size star bed with a complementary view of the flowing River Nile.</p>
-                                <button className='btn' onClick={goToDetails}>View Details</button>
+                                <button className='btn' onClick={goToDetails1}>View Details</button>
                             </div>
                         </div>
                     </div>
@@ -58,7 +71,7 @@ const Accommodat = () => {
                             <div className='small-bit'>
                                 <h3>Family Banda</h3>
                                 <p>Exclusive family banda named DUNIA (Swahili word for Earth) is the ideal option for larger groups. It accommodates four to eight guests.</p>
-                                <button className='btn' onClick={goToDetails}>View Details</button>
+                                <button className='btn' onClick={goToDetails2}>View Details</button>
                             </div>
                         </div>
                     </div>

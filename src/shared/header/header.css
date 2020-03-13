@@ -10,12 +10,29 @@
 
 .header {
   padding: 12px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 3;
-  /* background-color: #D5AF6D; */
   box-sizing: border-box;
   justify-content: center;
+}
+
+.cover {
+  width: 100%;
+  top: 0;
+  height: 100%;
+  background-color: #D5AF6D;
+  position: absolute;
+  z-index: -1;
+}
+
+.cover-show {
+  opacity: 0;
+}
+
+.cover-hide{
+  transition: all .7s;
+  opacity: 0.7;
 }
 
 .header .nav {
@@ -50,25 +67,12 @@
   width: 50%;
 }
 
-.header .nav .btn {
-  font-size: 20px;
-  font-weight: 500;
-  color: #edf0f1;
-  justify-content: center;
-  border: 1px solid violet;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
 .header .nav .btn:hover {
   color: #D5AF6D;
 }
 
 @media screen and (max-width: 767px) {
-  .header {
-    background-color: #D5AF6D;
-  }
-
+  
   .header .nav {
     width: 85%;
   }

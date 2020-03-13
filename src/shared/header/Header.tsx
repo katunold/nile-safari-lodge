@@ -22,8 +22,10 @@ class Header extends React.Component {
 
     showNav: boolean = false;
     state = {
-        style
+        style,
+        hideNav: true
     }
+    myRef = React.createRef();
 
     openNavBar = () => {
         this.showNav = !this.showNav;
@@ -43,9 +45,23 @@ class Header extends React.Component {
         })
     }
 
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll = (event: any) => {
+        let scrollPosition = window.pageYOffset;
+        if (scrollPosition > 775) {
+            this.setState({ hideNav: false });
+        } else {
+            this.setState({ hideNav: true });
+        }
+    }
+
     render() {
         return (
-            <div className='header'>
+            <div className={this.state.hideNav ? 'hide header' : ' header show'}>
+                <div className={this.state.hideNav ? 'cover cover-show' : 'cover cover-hide'}></div>
                 <div className='nav'>
                     <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
 
@@ -58,7 +74,7 @@ class Header extends React.Component {
 
                 <MobileNav style={this.state.style}>
                     <button onClick={this.openNavBar} className='close'>&times;</button>
-                    
+
                     <div className="overlay__links">
                         <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
                         <Link to="/">Home</Link>
@@ -69,6 +85,8 @@ class Header extends React.Component {
                         <Link to="/about">About</Link>
                     </div>
                 </MobileNav>
+
+                <script></script>
             </div>
         )
     }

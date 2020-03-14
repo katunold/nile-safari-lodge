@@ -1,5 +1,5 @@
 import React from 'react';
-import Details from '../../components/Details2/details';
+import Details from '../../components/thedetails/Details2/details';
 import Header from '../../shared/header/Header';
 import Footer from '../../shared/footer/Footer';
 import Contact from '../../shared/contact/contact';

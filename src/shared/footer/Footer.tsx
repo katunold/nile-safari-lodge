@@ -13,6 +13,7 @@ import logo from '../../assets/nileSafariff.png';
 
 
 const Footer = () => {
+
     return (
         <div className='footer'>
             <div className='content'>
@@ -30,12 +31,12 @@ const Footer = () => {
                     <h3>Quick Links</h3>
                     <FooterNav>
                         <Link to="/" onClick={()=>window.scrollTo(0, 0)}>Home</Link>
-                        <Link to="/activities">Activities</Link>
-                        <Link to="/accommodate">Accommodation</Link>
-                        <Link to="/facilities">Facilities</Link>
-                        <Link to="/gallery">Gallery</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
+                        <Link to="/activities" onClick={()=>window.scrollTo(0, 0)}>Activities</Link>
+                        <Link to="/accommodate" onClick={()=>window.scrollTo(0, 0)}>Accommodation</Link>
+                        <Link to="/facilities" onClick={()=>window.scrollTo(0, 0)}>Facilities</Link>
+                        <Link to="/gallery" onClick={()=>window.scrollTo(0, 0)}>Gallery</Link>
+                        <Link to="/about" onClick={()=>window.scrollTo(0, 0)}>About</Link>
+                        <Link to="/" onClick={()=>window.scrollTo(0, 0)}><img className="logo" src={logo} alt="logo" /></Link>
                     </FooterNav>
                 </div>
                 <div className='third'>

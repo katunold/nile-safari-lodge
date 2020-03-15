@@ -1,8 +1,5 @@
 import React from 'react';
 import Band from '../../../shared/band/band';
-import nilesafari7 from '../../../assets/images/nilesafari7.jpg';
-import nilesafari6 from '../../../assets/images/nilesafari6.jpg';
-import DJI_0131 from '../../../assets/images/DJI_0131.jpg';
 import './acco.css';
 import { useHistory } from 'react-router-dom';
 
@@ -39,7 +36,7 @@ const Accommodat = () => {
                 <div className='the-container'>
                     <div className='the-card first'>
                         <div className='the-imgbox'>
-                            <img src={nilesafari7} alt='first-banda' />
+                            <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Luxurious-Banda-Nile-Safari-Lodge-.jpg-Cover.jpg' alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>
@@ -52,7 +49,7 @@ const Accommodat = () => {
 
                     <div className='the-card'>
                         <div className='the-imgbox'>
-                            <img src={DJI_0131} alt='first-banda' />
+                            <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Exclusive-Banda-Nile-Safari-Lodge.jpg-Cover.jpg' alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>
@@ -65,7 +62,7 @@ const Accommodat = () => {
 
                     <div className='the-card'>
                         <div className='the-imgbox'>
-                            <img src={nilesafari6} alt='first-banda' />
+                            <img src='https://nilesafarilodge.com/wp-content/uploads/2019/09/Family-banda.-Nile-safari-lodge.-cover.jpg' alt='first-banda' />
                         </div>
                         <div className='the-contentbox'>
                             <div className='small-bit'>

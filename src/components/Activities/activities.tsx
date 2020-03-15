@@ -1,5 +1,7 @@
 import React from 'react';
 import Band from '../../shared/band/band';
+import JoinUs from '../../shared/join/join';
+
 import crest from '../../assets/images/crest.jpg';
 import elles from '../../assets/images/elles.jpg'
 import river from '../../assets/images/river.jpg'
@@ -63,6 +65,7 @@ const Activity = () => {
                     </div>
                 </div>
             </div>
+            <JoinUs />
         </div>
     )
 }

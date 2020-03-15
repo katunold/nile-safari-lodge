@@ -24,6 +24,7 @@ const Brand = styled.div`
         display: flex;
         width: 75%;
         justify-content: space-between;
+        align-items: center;
     }
 
     .the-video,

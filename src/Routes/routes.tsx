@@ -29,7 +29,6 @@ const Routes = () => (
             <Route path="/facilities" exact component={ FacilitiesView } />
             <Route path="/notfound" exact component={ Notfoundpage } />
         </Switch>
-        {/* <Footer/> */}
     </Router>
 )
 
